@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: hsla(0, 0%, 88%, 0.938);
+	font-family: "Open Sans", sans-serif;
+}
+
+.navbar-1,
+.navbar-2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 3%;
+	margin-left: 3%;
+	background-color: white;
+}
+.navbar-2 {
+	border-bottom: 2px solid orangered;
+}
+.nav-elements {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 13%;
+	padding-right: 2%;
+	list-style: none;
+	font-size: 0.8rem;
+}
+.fa-search {
+	margin-right: 5px;
+}
+.nav-buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 30%;
+	padding-right: 3%;
+	list-style: none;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+}
+nav > h1 {
+	background-color: orangered;
+
+	font-size: 2rem;
+	color: white;
+	padding: 1% 2% 1% 2%;
+	font-weight: 700;
+}
+
+nav > h2 {
+	background-color: rgba(0, 0, 0, 0.781);
+	padding-left: 1.8%;
+	padding-right: 1.6%;
+	font-size: 1.4rem;
+	color: white;
+	font-weight: 300;
+	padding-bottom: 1%;
+}
+.sidebar .selected > li:hover {
+	color: orangered;
+	cursor: pointer;
+}
+.main-content {
+	display: flex;
+	flex-direction: row;
+	margin-left: 3%;
+	margin-top: 5%;
+}
+
+.sidebar > .line {
+	border-left: 5px solid orangered;
+	height: 20px;
+}
+.sidebar > ul {
+	list-style: none;
+	margin-left: 10%;
+	white-space: nowrap;
+	font-size: 0.9rem;
+	margin-top: 15%;
+}
+
+.main-content > .sidebar p {
+	font-size: 1.1rem;
+	margin-right: 10%;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+
+.catalog {
+	display: grid;
+	margin-top: 30px;
+	grid-template-columns: 1.5fr 1.5fr 1.5fr;
+	grid-template-rows: 300px 300px;
+	width: 100%;
+	margin-right: 50px;
+	margin-bottom: 0px;
+}
+
+.catalog .box1 img {
+	width: 200px;
+	float: left;
+	position: relative;
+	left: 60px;
+	top: -40px;
+	z-index: 1;
+}
+
+.box1 p {
+	border: 1px solid white;
+	width: 200px;
+	display: inline-block;
+	position: relative;
+	top: -280px;
+	left: 183px;
+	padding-bottom: 15%;
+	padding-top: 10%;
+	padding-left: 25px;
+	padding-right: auto;
+	border-radius: 9px 9px;
+	background-color: white;
+	line-height: 30px;
+	font-weight: 600;
+	font-family: "Oxygen", sans-serif;
+}
+
+.box1 b {
+	position: relative;
+	top: -230px;
+	left: 80px;
+	font-size: 1.5rem;
+	color: red;
+}
+
+.new {
+	position: relative;
+	top: -2px;
+	left: 10px;
+	z-index: 1;
+	background-color: mediumslateblue;
+	color: white;
+	padding: 2px 5px 2px 5px;
+}
+
+.box1 .menu-2 {
+	border: 1px solid white;
+	width: 200px;
+	display: inline-block;
+	position: relative;
+	top: -280px;
+	left: 183px;
+	padding-bottom: 18%;
+	padding-top: 3%;
+	padding-left: 25px;
+	padding-right: auto;
+	border-radius: 9px 9px;
+	background-color: white;
+	line-height: 45px;
+	font-weight: 600;
+	font-family: "Oxygen", sans-serif;
+}
+
+.box1 .new-price {
+	position: relative;
+	top: -210px;
+	left: 80px;
+	font-size: 1.5rem;
+	color: red;
+}
+
+.box1 .menu-3 {
+	border: 1px solid white;
+	width: 200px;
+	display: inline-block;
+	position: relative;
+	top: -280px;
+	left: 183px;
+	padding-bottom: 41%;
+	padding-top: 3%;
+	padding-left: 25px;
+	padding-right: auto;
+	border-radius: 9px 9px;
+	background-color: white;
+	line-height: 25px;
+	font-weight: 600;
+	font-family: "Oxygen", sans-serif;
+}
+
+.box1 .new-price1 {
+	position: relative;
+	top: -182px;
+	left: 80px;
+	font-size: 1.5rem;
+	color: red;
+}
+.box1 .menu-4 {
+	border: 1px solid white;
+	width: 200px;
+	display: inline-block;
+	position: relative;
+	top: -280px;
+	left: 183px;
+	padding-bottom: 30%;
+	padding-top: 3%;
+	padding-left: 30px;
+	padding-right: auto;
+	border-radius: 9px 9px;
+	background-color: white;
+	line-height: 30px;
+	font-weight: 600;
+	font-family: "Oxygen", sans-serif;
+}
+
+.box1 .menu-5 {
+	border: 1px solid white;
+	width: 200px;
+	display: inline-block;
+	position: relative;
+	top: -280px;
+	left: 183px;
+	padding-bottom: 31%;
+	padding-top: 3%;
+	padding-left: 30px;
+	padding-right: auto;
+	border-radius: 9px 9px;
+	background-color: white;
+	line-height: 30px;
+	font-weight: 600;
+	font-family: "Oxygen", sans-serif;
+}
+
+.box1 .new-price2 {
+	position: relative;
+	top: -220px;
+	left: 80px;
+	font-size: 1.5rem;
+	color: red;
+}
